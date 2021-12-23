@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 21-12-2021 a las 20:03:43
+-- Tiempo de generación: 23-12-2021 a las 15:44:30
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 8.0.13
 
@@ -39,7 +39,13 @@ CREATE TABLE `oradores` (
 --
 
 INSERT INTO `oradores` (`id`, `nombre`, `apellido`, `tema`) VALUES
-(5, 'Leand', 'Reyes', 'Fullstack JAVA');
+(16, 'Joannes', 'Elman', 'Neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum'),
+(17, 'Darrel', 'Gresswood', 'Peros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis'),
+(18, 'Natty', 'Levis', 'Nat ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla'),
+(19, 'Chris', 'Pevreal', 'Pipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio'),
+(21, 'Caz', 'McKinnon', 'Murus phasellus in felis donec semper sapien a libero nam dui'),
+(22, 'Trey', 'Benfell', 'Vinterdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum'),
+(23, 'Cleo', 'Fluger', 'Felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui po');
 
 -- --------------------------------------------------------
 
@@ -118,7 +124,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `oradores`
 --
 ALTER TABLE `oradores`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT de la tabla `participantes`
